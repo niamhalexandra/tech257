@@ -38,4 +38,6 @@ sudo npm -E install
 sudo npm -E start
 
 ## Blockers:
-* Initially had set up my database vm using a different vnet to the app so they couldn't communicate. Rebuilt a new vm on the same vnet as the app vm and successful. 
+* Initially had set up my database vm using a different vnet to the app so they couldn't communicate. Rebuilt a new vm on the same vnet as the app vm and successful.
+* ON AWS ADD SED LINE FOR RESTARTS 
+* sudo sed -i "s/^#\$nrconf{restart} = 'i';/\$nrconf{restart} = 'a';/" /etc/needrestart/needrestart.conf 

@@ -61,7 +61,7 @@ kill <pm2-process-id>
 export DB_HOST=mongodb://10.0.3.4:27017/posts
 
 # Cd into app folder
-cd /tech257-sparta-app2/app
+cd tech257-sparta-app2/app
 
 #Get app up and running:
 sudo -E npm install

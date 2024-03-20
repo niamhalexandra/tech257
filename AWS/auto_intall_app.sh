@@ -1,4 +1,4 @@
-#!/bin/bash
+s#!/bin/bash
 
 #Update and upgrade
 sudo apt-get update -y
