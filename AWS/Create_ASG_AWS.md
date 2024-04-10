@@ -14,3 +14,7 @@
 ![alt text](<Screenshot 2024-04-09 at 16.02.54.png>)
 
 ![alt text](<Screenshot 2024-04-09 at 16.04.09.png>)
+
+# Auto Scaling Diagram
+
+![alt text](<Screenshot 2024-04-10 at 09.29.25.png>)
