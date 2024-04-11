@@ -15,7 +15,7 @@
 * Cost Optimisation: Auto scaling helps optimise costs, given the above point, this means you are only paying in accoradance with your usage.
 * Improved Performance: Your application is ready to handle varying levels of traffic without any negative impacts on it's performance.
   
-##### How to create an auto scaling group:
+# How to create an auto scaling group:
 
 
 1. Navigate to autoscaling groups, click 'create'
