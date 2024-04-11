@@ -10,12 +10,12 @@
 * Fault Tolerance: If one instance fails, Auto Scaling automatically replaces it with a healthy one, ensuring constant availability of your application.
 * Geo-Redundancy: AWS allows you to deploy resources across multiple Availability Zones (AZs) within a region, each with an associated subnet, this improves fault tolerance, disaster recovery and can help improve security.
 
-### Benefits of Scalability:
+#### Benefits of Scalability:
 * Improved Resource Management: Auto Scaling Groups automatically adjust the number of instances based on demand, allowing you to scale resources up and down or in and out based on certain criteria you choose to set.
 * Cost Optimisation: Auto scaling helps optimise costs, given the above point, this means you are only paying in accoradance with your usage.
 * Improved Performance: Your application is ready to handle varying levels of traffic without any negative impacts on it's performance.
   
-### How to create an auto scaling group:
+##### How to create an auto scaling group:
 
 
 1. Navigate to autoscaling groups, click 'create'
