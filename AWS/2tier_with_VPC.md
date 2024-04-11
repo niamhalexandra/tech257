@@ -1,5 +1,8 @@
 # VPC for making Database Instance private
 
+## Diagram of concept:
+![alt text](<Screenshot 2024-04-11 at 16.41.54.png>)
+
 1. Create the VPC (virtual private cloud - equivalent to Vnet on Azure)
    ![alt text](<Screenshot 2024-04-11 at 12.01.42.png>)
 2. Create two subnets - one public for the app instance and one private for the database instance
