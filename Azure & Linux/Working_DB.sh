@@ -105,12 +105,16 @@ if [ ! -z "$pm2_pid" ]; then
 fi
 
 # Set up database connection using private IP address
-export DB_HOST=mongodb://172.31.50.92:27017/posts
+export DB_HOST=mongodb://172.31.58.133:27017/posts
 
 # Cd into app folder
-cd tech257-sparta-app2/app
+cd ../..tech257-sparta-app2/app
 
 # Get app up and running
 sudo -E npm install
 sudo -E npm start
 
+sudo node seeds/seed.js
+
+sudo npm install pm2 -g
+sudo pm2 start app.js
