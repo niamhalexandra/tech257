@@ -8,3 +8,4 @@
 6. **Auto Scaling**: The availability zones are associated with an individual subnet in AWS unlike in Azure, we also need a launch template in AWS to specify the details on instances
 7. **Monitoring of VMs**: We have to turn on 'detailed monitoring' in Azure to monitor by 1 min intervals to match Azure's default because the default on Azure is 5 minutes. Detailed monitoring costs more which is important to note.
 8. **How Security Groups Work**: Azure allows to set sg's so that they can link to NIC associated with virtual machines OR subnets but in AWS it's linked to NIC but for subnets the NACL (Network Access Control List) instead.
+9. **Blob Storage**: Azure Blob storage is S3 on AWS and instead of being stored in 'containers' it's stored in 'buckets'. S3 is shorthand for SSS (simple storage services) 
