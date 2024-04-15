@@ -29,7 +29,7 @@ location_constraint = 'EU'
 s3 = boto3.client('s3', region_name=region)
 
 #create the new bucket
-s3.create_bucket(Bucket=bucket_name, CreateBucketConfiguration={'LocationConstr>
+s3.create_bucket(Bucket=bucket_name, CreateBucketConfiguration={'LocationConstraint': location_constraint})
 print(f"Bucket '{bucket_name}' created")
 
 #UPLOAD FILE TO BUCKET
