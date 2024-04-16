@@ -108,5 +108,3 @@ pm2 start app.js
 2. When running with reverse proxy, kept getting an error code, the app would run in port 3000 but still not just with the public IP. after 'nano'ing into the etc/nginx/sites-enabled/default there was actually an extra ";" which was causing an error in the syntax and preventing the script running properly, when removed via the sudo command, it then was accessible via the public ip. 
 3. When running on a fresh VM the same errors were encountered. It was clear then that there was something in my bash script that was causing the extra ";" to be added into the config file. I then looked for a colon that may be unecessary in my initial bash script and found it within the reverse proxy command. After removing it, saving the script and re-running it worked without errors.
 
-# User Data
-
