@@ -1,0 +1,20 @@
+apiVersion: apps/v1 # which api to use for deployment
+kind: Deployment # pod - service, what kind of resource we are creating
+
+metadata:
+  name: sparta-deployment # name of the deployment
+spec:
+  selector: # which pods to manage with this deployment
+    matchLabels:
+      app: sparta
+  replicas: 3 # number of pods to run
+  template: # template for the pods
+    metadata:
+      labels:
+        app: sparta
+    spec:
+      containers:
+        - name: sparta
+          image: niamhalexandra/sparta_app:app # image to use
+          ports:
+            - containerPort: 3000 # port to expose

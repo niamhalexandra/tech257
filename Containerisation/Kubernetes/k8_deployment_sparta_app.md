@@ -64,3 +64,5 @@ spec:
 2. Use the same commands as above to create etc. Check in browser:
 ![alt text](<Screenshot 2024-04-18 at 15.24.10.png>)
 
+
+
