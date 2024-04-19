@@ -15,6 +15,9 @@ spec:
     spec:
       containers:
         - name: sparta
-          image: niamhalexandra/sparta_app:app # image to use
+          image: followcrom/sta:v1 # image to use
           ports:
             - containerPort: 3000 # port to expose
+          env:
+            - name: DB_HOST
+              value: "mongodb://10.111.128.95:27017/posts"
