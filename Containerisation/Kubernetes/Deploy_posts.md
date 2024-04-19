@@ -12,7 +12,7 @@
 4. Then run the 'kubectl create' to set up all pods. 
 5. Navigate to the app /posts on browserto view!
    
-   [alt text](<Screenshot 2024-04-19 at 12.31.33.png>)
+![alt text](<Screenshot 2024-04-19 at 12.31.33-1.png>)
 
 ## If the database doesn't seed:
 
